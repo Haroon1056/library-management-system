@@ -72,7 +72,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## Contact
 
-For any inquiries, please contact [Haroon Rasheed] at [your.haroonrasheed1056@gmail.com].
+For any inquiries, please contact [Haroon Rasheed] at [haroonrasheed1056@gmail.com].
 
 
 ## Authors
