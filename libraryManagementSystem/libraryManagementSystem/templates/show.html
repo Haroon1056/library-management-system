@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+    {% block content %}
+<table class="table">
+    {% comment %} <form method="POST" action="/search">
+        {% csrf_token %}
+        <tr>
+            <td><input name="name" ></td>
+            <td><button type="submit">Search</button></td>
+        </tr>
+    </form> {% endcomment %}
+
+    <h1>All Books</h1>
+<tr>
+    <th>Title</th>
+    <th>Author</th>
+    <th>ISBN</th>
+    <th>Publication_date</th>
+</tr>
+{% for i in book %}
+<tr>
+    <td>{{ i.title }}</td>
+    <td>{{ i.author }}</td>
+    <td>{{ i.isbn }}</td>
+    <td>{{ i.pub_date }}</td>
+    <td>
+        <a href="edit/{{ i.id }}" class="btn btn-warning">Edit</a>
+    </td>
+    <td>
+        <a href="delete/{{ i.id }}" class="btn btn-danger">Delete</a>
+    </td>
+</tr>
+{% endfor %}
+</table>
+    {% endblock %}

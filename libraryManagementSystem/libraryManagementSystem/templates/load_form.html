@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+    {% block content %}
+<form method="POST" action="add">
+    {% csrf_token %}
+    <label>Title:</label> 
+     <div> {{form.title}} </div>
+     <label>Author:</label> 
+     <div> {{form.author}} </div>
+     <label>ISBN:</label> 
+     <div> {{form.isbn}} </div>
+     <label>Publication_date:</label> 
+     <div> {{form.pub_date}} </div></br>
+     <div>
+        <button type = "submit" class="btn btn-success">Save</button>
+     </div>
+</form>
+   {% endblock %}
