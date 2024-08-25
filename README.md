@@ -10,7 +10,7 @@ This is a Library Management System built using Django Python, showcasing all CR
 - **Delete Books**: Users can remove books from the library.
 - **Manage Authors**: CRUD operations for authors.
 - **Manage ISBN**: CRUD operations for ISBN.
-- - **Manage Publication_date**: CRUD operations for Publication_date.
+- **Manage Publication_date**: CRUD operations for Publication_date.
 - **Search Functionality**: Users can search for books, authors, ISBN and Publication_date.
 
 ## Screenshots
@@ -31,7 +31,6 @@ This is a Library Management System built using Django Python, showcasing all CR
 - **libraryapp/**: The Django app directory where all the main functionality resides, including models, views, and templates.
 - **migrations/**: Stores database migration files.
 - **templates/**: Contains HTML templates.
-- **static/**: Stores static files like CSS and JavaScript.
 - **db.sqlite3**: The SQLite database file.
 - **manage.py**: A command-line utility that lets you interact with this Django project.
 
